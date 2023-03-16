@@ -13,9 +13,8 @@ from kivy.core.window import Window
 from kivy.app import App
 from kivy.graphics.context_instructions import Color
 from kivy.graphics.vertex_instructions import Line, Quad, Triangle
-from kivy.properties import NumericProperty, ObjectProperty, StringProperty
+from kivy.properties import NumericProperty, Clock, ObjectProperty, StringProperty
 from kivy.uix.widget import Widget
-from kivy.properties import Clock
 
 Builder.load_file("menu.kv")
 
